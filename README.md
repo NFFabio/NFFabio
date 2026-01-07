@@ -1,4 +1,11 @@
-## Hi there 👋
+## Hallo, ich bin Fabio 👋
+
+schön das du da bist 🤗
+
+Momentan besuche ich die 4. Klasse in der **HTL Leonding** im Bereich **IT & Medienttechnik**. Meine Intressen liegen vorallem im Frontend Design und das lernen neuer Frameworks. Ich arbeite viel mit Figma um Oberflächen zu gestalten, kenne mich aber auch relativ gut aus mit den Grundlagen wie html, css, javascript, php und java. 
+
+Hier werde ich einige sowohl Projekte aus meiner Schullaufbahn, als auch Private hochladen um meinen eigenen Leistungsstand zu demonstrieren. 
+<!-- 🎓 HTL Schüler>
 
 <!--
 **NFFabio/NFFabio** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
