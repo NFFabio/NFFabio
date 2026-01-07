@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+#contactPart{
+    height: 100%;
+    width: 60%;
+}
+canvas{
+    height: 100%;
+    width: 40%;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    left: 60%;
+}
+#headline{
+    position: absolute;
+    font-family: "inter-variable", sans-serif;
+    font-variation-settings: "slnt" 0, "wght" 700;
+    font-size: 7.5em;
+     top: 12%;
+     left: 5%;
+}
+#subHead{
+    position: absolute;
+    font-family: "inter-variable", sans-serif;
+    font-variation-settings: "slnt" 0, "wght" 400;
+    letter-spacing: -1;
+    font-size: 7.5em;
+     top: 26%;
+     left: 10%;
+     z-index: 2;
+}
+input{
+    height: 10%;
+    width: 40%;
+    background-color:rgba(159, 159, 159, 0.404) ;
+    outline: none;
+    border: none;
+    font-size: 1.5em;
+    padding-left:1%;
+    font-family: "inter-variable", sans-serif;
+
+}
+#email{
+    position: absolute;
+    top: 50%;
+    left: 18%;
+}
+#messsage{
+    position: absolute;
+    top: 65%;
+    left: 18%;
+}
+#hi{
+    position: absolute;
+    font-family: "inter-variable", sans-serif;
+    font-variation-settings: "slnt" 0, "wght" 200;
+     top: 45%;
+     left: 18%;
+     font-size: 1.5em;
+    font-style: italic;
+}
+::placeholder{
+    opacity: 30%;
+    font-style: italic;
+    font-variation-settings: "slnt" 0, "wght" 100;
+    font-size: 1em;
+}
+#sendButton{
+    height: 8%;
+    width: 15%;
+    background-color: rgb(18, 41, 215);
+
+    border-radius: 15px;
+    position: absolute;
+    top: 80%;
+    left: 44%;
+    display: flex;
+    justify-content: center;
+    font-family: "inter-variable", sans-serif;
+    align-items: center;
+    font-variation-settings: "slnt" 0, "wght" 300;
+    font-size: 1.5em;
+    color: white;
+
+}
+#sendButton:hover{
+    cursor: pointer;
+    background-color: rgb(80, 95, 211);
+
+}
+#nav{
+    display: flex;
+    position: absolute;
+    left: 75%;
+    font-family: "inter-variable", sans-serif;
+    font-variation-settings: "slnt" 0, "wght" 200;  
+    color: black;
+    top: 2%;
+    z-index: 2;
+    font-size: 1.2em;
+    width: 25%;
+    height: 10%;
+    justify-content: space-evenly;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}

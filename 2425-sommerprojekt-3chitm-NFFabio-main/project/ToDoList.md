@@ -1,0 +1,1 @@
+in der session speichern ob man das erste produkt bereits erhalten hat

@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #A9E3B3;
+}
+h2{
+    color: #FDFADE;
+font-family: Inter;
+font-size: 100px;
+font-style: italic;
+font-weight: 900;
+line-height: normal;
+margin-left: -5%;
+}
+h1{
+    color: #FDFADE;
+    font-family: Inter;
+    font-size: 250px;
+    font-style: italic;
+    font-weight: 900;
+    line-height: normal;
+    margin-top: -9%;
+    
+}
+#mr{
+    margin-top: -9%;
+    width: 100%;
+    margin-left: 57%;
+}
+h3{
+    color: rgba(255, 255, 255, 0.73);
+font-family: Inter;
+font-size: 40px;
+font-style: italic;
+font-weight: 700;
+line-height: normal;
+text-align: center;
+}
+#header{
+    top: 0;
+    position: absolute;
+    left: 10%;
+    display: flex;
+    flex-direction: column;
+}
+#main{
+    margin-top: 30%;
+}
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(1.08);
+        opacity: 0.8;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+h3 {
+    animation: pulse 1.5s infinite;
+}
+
+#login{
+    height: 5%;
+    width: 10%;
+    background-color:#FDFADE ;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter, Arial, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #2B5D34;
+    border: none;
+    display: flex;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+    left: 18%;
+    position: relative;
+    margin-top: -24%;
+    scale: 1.4;
+    z-index: 2;
+    border-radius: 10px;
+}
+#register{
+    height: 5%;
+    width: 10%;
+    background-color:#FDFADE ;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter, Arial, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #2B5D34;
+    border: none;
+    display: flex;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+    left: 18%;
+    position: relative;
+    margin-top: 4%;
+    scale: 1.4;
+    z-index: 2;
+    border-radius: 10px;
+}
+
+
+#login {}
+#register {}
+
+@keyframes shake-rotate {
+    0% { transform: rotate(0deg); }
+    20% { transform: rotate(-3deg); }
+    40% { transform: rotate(3deg); }
+    60% { transform: rotate(-2deg); }
+    80% { transform: rotate(2deg); }
+    100% { transform: rotate(0deg); }
+}
+
+#mail{
+    position: relative;
+    top: -15%;
+    scale: 1.5;
+    left: 63%;
+    background-color:#FDFADE ;
+
+}
+#pw{
+    position: relative;
+    top: -3%;
+    scale: 1.5;
+    left: 54.5%;
+    background-color:#FDFADE ;
+
+}
+input{
+    width: 8%;
+    outline: none;
+}

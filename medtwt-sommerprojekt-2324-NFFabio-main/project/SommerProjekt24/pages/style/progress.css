@@ -1,0 +1,329 @@
+/*
+    !General
+    ?Overlay
+    ^Specials
+    ~Interface
+*/
+
+
+/*!General Settings*/
+*{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    overflow-x: hidden;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+section{
+    height: 400%;
+    width: 100%;
+    background-color: white;
+}
+#Overlay >svg{
+    height:400vh ;
+    width: 100vw;
+    top: 0;
+    position: absolute;
+    z-index: 10;
+}
+div{
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+}
+
+#drawLine{
+    height: 300vh;
+    width: 80vw;
+    position: absolute;
+    top: 90%;
+    left: 18%;
+    z-index: 10;
+    display: inline-block;
+}
+.circle{
+    background-color: black;
+    border: 1px solid black;
+    height: 30%;
+    margin-top: 5%;
+    width: 70%;
+    border-radius: 50%;
+    left: 10%;
+    position: relative;
+    scale: 1;
+}
+#fc{
+    scale: .6;
+}
+#sc{
+    scale: .6;
+}
+#tc{
+    scale: .6;
+}
+#sideNav{
+    opacity: 0;
+    overflow: hidden;
+    background-color: white;
+    height: 12vh;
+    width: 2.5vw;
+    position: fixed;
+    left: 96.5%;
+    top: 40%;
+    z-index: 2000;
+}
+
+/*!---------------*/
+
+
+
+/*?Overlay*/
+#Overlay{
+    filter: url(#effect);
+    mask:url(#mask);
+    position: absolute;
+    background-image: url(../assets/city-lights-in-tokyo-egp2zus712rb9l8n.jpg);
+    z-index: 2;
+    top: 0;
+    filter: grayscale();
+}
+#firstSectorImage{
+    position: absolute;
+    top: 1%;
+    left: 35%;
+    z-index: 3;
+}
+#firstSectorHeadline{
+    font-family: "inter-variable", sans-serif;
+    font-variation-settings: "slnt" 0, "wght" 1500;
+    font-size: 9em;
+    position: absolute;
+    top: 5%;
+    left: 7%;
+    color: white;
+    z-index: 3;
+}
+
+
+/*?-------*/
+
+
+/*~Interface (What User sees)*/
+    /*^first sector*/
+        #interface{
+            position: absolute;
+            top: 0;
+            z-index: 0;
+        }
+        #headline{
+            text-shadow: white;
+            font-family: "inter-variable", sans-serif;
+            font-variation-settings: "slnt" 0, "wght" 15000;
+            font-size: 9em;
+            position: relative;
+            top: 6%;
+            left: 9%;
+            z-index: 2;
+        }
+        #titleImage{
+            position: absolute;
+            top: 1%;
+            left: 35%;
+            z-index: 1;
+        }
+        #highlight{
+            position: absolute;
+            top: 6%;
+            left: 30%;
+            opacity: .7;
+            scale: 1;
+            z-index: 0;
+        }
+       
+    /*^-----------*/
+
+    /*^second sector*/
+        #sector2{
+            top: 25%;
+        }
+        #mileStone1{
+            left: 15%;
+            top: 20%;
+            height: 40vh;
+            width: 60vh;
+            background-color: rgb(174, 174, 174);
+            z-index: 3;
+        }
+        #mileStone1Shadow{
+            left: 18%;
+            top: 25%;
+            height: 40vh;
+            width: 60vh;
+            background-color: #6472BB;
+            z-index: 2;
+
+        }
+        #mileStone1VerticalText{
+            font-family: "inter-variable", sans-serif;
+            font-variation-settings: "slnt" 0, "wght" 1500;
+            font-size: 5em;
+            width: 10%;
+            height: 100%;
+            position: absolute;
+            z-index: 2;
+            left: 10%;
+        }
+        #milestone1TextBox{
+            width: 40vw;
+            height: 40vh;
+            position: absolute;
+            left: 55%;
+            top: 25%;
+        }
+    /*^------------*/
+
+    /*^third sector*/
+        #sector3{
+            top: 50%;
+
+        }
+        #s3hT{
+            font-family: "inter-variable", sans-serif;
+            font-weight: normal;
+            font-size: 5em;
+            position: absolute;
+            top: 45%;
+            left: 10%;  
+        }
+        .s3tT{
+            font-family: "inter-variable", sans-serif;
+            font-weight: lighter;
+            font-size: 2.5em;
+            position: absolute;
+            top: 60%;
+            left: 12%;  
+        }
+        #s3mB{
+            width: 20vw;
+            height: 60vh;
+            background-color: rgb(174, 174, 174);
+            position: absolute;
+            top: 20%;
+            left: 60%;
+            z-index: 1;
+        }
+
+        #s3HL{
+            width: 18vw;
+            height: 65vh;
+            background-color: rgba(174, 174, 174,1);
+            border: none;
+            position: absolute;
+            top: 15%;
+            left: 62%; 
+            z-index: 0;
+        }
+    /*^------------*/
+    /*^Sector4*/
+    #sector4{
+        top: 75%;
+    }
+    #s4hL{
+        font-family: "inter-variable", sans-serif;
+        font-weight: normal;
+        font-size: 8em;
+        position: absolute;
+        top: 45%;
+        left: 20%;
+        transform: rotate(-10deg);
+    }
+    #s4hlT{
+        font-family: "inter-variable", sans-serif;
+        font-weight: bold;
+        font-size: 8em;
+        position: absolute;
+        top: 33%;
+        left: 25%;
+        transform: rotate(-10deg);
+        opacity: .2;
+        font-stretch: 15%;
+    }
+    .more{
+        position: absolute;
+    }
+    #s4-one{
+        background-color: rgb(174, 174, 174);
+        top: 5%;
+        height: 40vh;
+        width: 12.5vw;
+        left: 5%;
+    }
+    #s4-two{
+        background-color: rgb(174, 174, 174);
+        top: 5%;
+        height: 20vh;
+        width: 15vw;
+        left: 80%;
+    }
+    #s4-thr{
+        background-color: rgb(174, 174, 174);
+        top: 70%;
+        height: 25vh;
+        width: 20vw;
+        left: 50%;
+    }
+    #s4-fou{
+        background-color: rgb(174, 174, 174);
+        top: 60%;
+        height:30vh;
+        width: 12.5vw;
+        left: 7%;
+    }
+    #s4-fiv{
+        background-color: rgb(174, 174, 174);
+        top: 2.5%;
+        height:30vh;
+        width: 12.5vw;
+        left: 35%;
+ 
+    }
+
+
+
+    /*^-------*/
+    
+
+
+/*~--------------------------*/
+
+
+
+
+#firstSector{
+    z-index: 0;
+    background-color: white;
+}
+
+
+#nav{
+    display: flex;
+    position: absolute;
+    left: 75%;
+    font-family: "inter-variable", sans-serif;
+    font-variation-settings: "slnt" 0, "wght" 200;  
+    color: black;
+    top: 2%;
+    z-index: 2;
+    font-size: 1.2em;
+    width: 25%;
+    height: 10%;
+    justify-content: space-evenly;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}

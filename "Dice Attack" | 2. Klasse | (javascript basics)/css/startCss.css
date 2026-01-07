@@ -1,0 +1,431 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: crazy;
+    src: url(../fonts/Saiyan-Sans\ Left\ Oblique.ttf);
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../images/karina-formanova-rainforest-animation.gif");
+    background-attachment: fixed;
+
+}
+
+#gradientBox{
+    width: 100%;
+    height: 30%;
+    background: linear-gradient(rgba(0,0,0,0)); 
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    position: relative;
+    background-size: cover;
+}
+#instructions{
+    height: 100%;
+    width: 80%;
+    border-radius: 15px;
+    background: linear-gradient(rgba(0,0,0,0)); 
+    
+    display: block;
+    top: -20%;
+  
+    position: relative;
+    left: 10%;
+}
+#top{
+    position: relative;
+    height: 6%;
+    background-color: none;
+    width: 100%;
+    display: flex;
+
+}
+.topIcon{
+    width: 2%;
+    position: absolute;
+    left: 92.5%;
+    top: 45%;
+    margin-left: 1%;
+    text-align: center;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+    z-index: 10;
+
+}
+#headline{
+    font-family: crazy;
+    text-align: center;
+    position: relative;
+    font-size: 7rem;
+}
+#characterWrapper{
+    position: relative;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    height: 10%;
+    top: -5%;
+    left: 35%;
+}
+#leftCharacter{
+    width: 10%;
+    position: relative;
+    top: 25%;
+    opacity: 30%;
+
+}
+#frontCharacter{
+    position: relative;
+    height: auto;
+    width: 20%;
+}
+#rightCharacter{
+    width: 10%;
+    position: relative;
+    top: 25%;
+    opacity: 30%;
+}
+#leftArrow{
+    position: relative;
+    font-size: 3rem;
+    top: 23%;
+    z-index: 1000;
+    left: 7%;
+    color: white;
+    opacity: 60%;
+}
+#rightArrow{
+    position: relative;
+    font-size: 3rem; 
+    left: 33.5%;
+    top: 15%;
+    z-index: 10;
+    color: white;
+    opacity: 60%;
+}
+#right{
+    width: 45%;
+}
+#left{
+    width: 45%;
+}
+#front{
+    width: 55%;
+}
+
+.pocketFont{
+    font-family: crazy;
+    text-align: center;
+}
+#description{
+    position: relative;
+    top: -10%;
+    font-size: 2.5em;
+    color: rgb(126, 55, 23);
+}
+#animalProfile{
+    position: relative;
+    top: -12%;
+}
+
+#borderBox{
+    border: 2px solid black;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 15px;
+    padding: 1%;
+    position: relative;
+    left: 10%;
+    width:15%;
+}
+@font-face {
+    font-family: pixel;
+    src: url(../fonts/slkscr.ttf);
+}
+#useAsInner{
+    width: 100%;
+    height: 60%;
+    position: relative;
+    top: -2%;
+}
+#characterinfo{
+    text-align: center;
+    font-family: crazy;
+    font-size: 5em;
+    position: absolute;
+    left: 35%;
+    top: 60%;
+    
+}
+/*MauriceTheSleeping*/
+#discriptionBox0{
+    width: 100%;
+    height: 100%;
+    background-color: #5aa26b;
+    position: relative;
+    top: -10%;
+    border-radius: 15px;
+}
+#innerDescriptionBox0{
+    position: relative;
+    left: 2%;
+    top:2.5%;
+    height: 95%;
+    width: 96%;
+    background-color: #3d6f43;
+    border-radius: 15px;
+
+}
+#topProfileWrapper0{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    padding: 1%;
+}
+
+
+#characterName0{
+    padding-top: 8%;
+    position: relative;
+    left: 20%;
+    font-family: pixel;
+}
+#textbox0{
+    font-family: pixel;
+    height: 50%;
+    font-size: 1.2em;
+    padding: 7%;
+    font-style: oblique ;
+}
+/*Elice*/
+#discriptionBox1{
+    width: 100%;
+    height: 100%;
+    background-color: #d38545;
+    position: relative;
+    top: -10%;
+    border-radius: 15px;
+}
+#innerDescriptionBox1{
+    position: relative;
+    left: 2%;
+    top:2.5%;
+    height: 95%;
+    width: 96%;
+    background-color: #a06426;
+    border-radius: 15px;
+
+}
+#topProfileWrapper1{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    padding: 1%;
+}
+
+
+#characterName1{
+    padding-top: 8%;
+    position: relative;
+    left: 20%;
+    font-family: pixel;
+}
+#textbox1{
+    font-family: pixel;
+    height: 50%;
+    font-size: 1.2em;
+    padding: 7%;
+    font-style: oblique ;
+}
+/*Henry*/
+#discriptionBox2{
+    width: 100%;
+    height: 100%;
+    background-color: #f5b87f;
+    position: relative;
+    top: -10%;
+    border-radius: 15px;
+    color: white;
+}
+#innerDescriptionBox2{
+    position: relative;
+    left: 2%;
+    top:2.5%;
+    height: 95%;
+    width: 96%;
+    background-color: #ec7827;
+    border-radius: 15px;
+
+}
+#topProfileWrapper2{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    padding: 1%;
+}
+
+
+#characterName2{
+    padding-top: 8%;
+    position: relative;
+    left: 20%;
+    font-family: pixel;
+}
+#textbox2{
+    font-family: pixel;
+    height: 50%;
+    font-size: 1.2em;
+    padding: 7%;
+    font-style: oblique ;
+}
+/*Bruce*/
+#discriptionBox3{
+    width: 100%;
+    height: 100%;
+    background-color: #d9a066;
+    position: relative;
+    top: -10%;
+    border-radius: 15px;
+}
+#innerDescriptionBox3{
+    position: relative;
+    left: 2%;
+    top:2.5%;
+    height: 95%;
+    width: 96%;
+    background-color: #813d18;
+    border-radius: 15px;
+
+}
+#topProfileWrapper3{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    padding: 1%;
+}
+
+
+#characterName3{
+    padding-top: 8%;
+    position: relative;
+    left: 20%;
+    font-family: pixel;
+}
+#textbox3{
+    font-family: pixel;
+    height: 50%;
+    font-size: 1.2em;
+    padding: 7%;
+    font-style: oblique ;
+}
+/*Paul*/
+#discriptionBox4{
+    width: 100%;
+    height: 100%;
+    background-color: #d4f59d;
+    position: relative;
+    top: -10%;
+    border-radius: 15px;
+}
+#innerDescriptionBox4{
+    position: relative;
+    left: 2%;
+    top:2.5%;
+    height: 95%;
+    width: 96%;
+    background-color: #2fc742;
+    border-radius: 15px;
+
+}
+#topProfileWrapper4{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    padding: 1%;
+}
+
+
+#characterName4{
+    padding-top: 8%;
+    position: relative;
+    left: 20%;
+    font-family: pixel;
+}
+#textbox4{
+    font-family: pixel;
+    height: 50%;
+    font-size: 1.2em;
+    padding: 7%;
+    font-style: oblique ;
+}
+/*Tony*/
+#discriptionBox5{
+    width: 100%;
+    height: 100%;
+    background-color: #2a9ae1;
+    position: relative;
+    top: -10%;
+    border-radius: 15px;
+}
+#innerDescriptionBox5{
+    position: relative;
+    left: 2%;
+    top:2.5%;
+    height: 95%;
+    width: 96%;
+    background-color: #1b75b5;
+    border-radius: 15px;
+
+}
+#topProfileWrapper5{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    padding: 1%;
+}
+
+
+#characterName5{
+    padding-top: 8%;
+    position: relative;
+    left: 20%;
+    font-family: pixel;
+}
+#textbox5{
+    font-family: pixel;
+    height: 50%;
+    font-size: 1.2em;
+    padding: 7%;
+    font-style: oblique ;
+}
+#close{
+    position: absolute;
+    top: 50%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 20%;
+    width: 35%;
+    left: 32%;
+    justify-content: space-between    ;
+}
+#aid{
+    height: 40%;
+    width: 100%;
+    border-top: 1px solid rgba(255,255,255,0.5);
+    border-bottom: 1px solid rgba(255,255,255,0.5);
+    background-color: rgba(0,0,0,0.3);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 1%;
+    color: white;
+    transition: 2s ease-in-out;
+
+}
+#aid:hover{
+    background: rgba(0,0,0,0.8);
+}

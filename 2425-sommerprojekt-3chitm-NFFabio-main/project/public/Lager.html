@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lager</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="./css/Lager.css">
+    <script src="lager.js" defere></script>
+    <script>
+        let timestamp = new Date().getTime();
+        
+        let link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.href = './css/index.css?' + timestamp;
+        document.head.appendChild(link);
+    </script>
+
+</head>
+<body>
+    <section id="main">
+        <section id="left">
+            <div id="headerWrap">
+                <div id="icon">U</div>
+                <h1>Dein Supermarkt</h1>
+            </div>
+
+            <h1 id="gen">GENERAL</h1>
+            <div id="nav">
+                <div class="row">
+                    <i class="fa-solid fa-gear"></i>
+                    <a href="controllRaum.html" style="text-decoration: none; color: inherit;">
+                        <h2>Kontrollraum</h2>
+                    </a>
+                </div>
+                <div class="row" style="background: #e0e0e0; border-radius: 6px; padding: 4px 8px;">
+                    <i class="fa-solid fa-warehouse"></i>
+                    <h2 id="lager">Lager</h2>
+                </div>
+                <div class="row">
+                    <i class="fa-solid fa-truck"></i>
+                    <a href="Liferanten.html">
+                        <h2>Liferanten</h2>
+                    </a>
+                </div>
+                
+            </div>
+        </section>
+        <section id="right">
+            <h1>Lager</h1>
+            <hr>
+        
+            <div id="productwrapper">
+                
+            </div>
+        </section>
+    </section>
+
+
+
+    
+</body>
+</html>

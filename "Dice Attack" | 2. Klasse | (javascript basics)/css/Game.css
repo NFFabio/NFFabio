@@ -1,0 +1,581 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: crazy;
+    src: url(../fonts/Saiyan-Sans\ Left\ Oblique.ttf);
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+#flexCharaxterChooseWrapper{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-image: url("../images/karina-formanova-rainforest-animation.gif");
+    backdrop-filter: blur(100px);
+    color: white;
+}
+#player1{
+    width: 20%;
+    height: 100%;
+    font-weight: bold;
+}
+#player2{
+    width: 20%;
+    height: 100%;
+    font-weight: bold;
+}
+#menueAndStats{
+    width: 60%;
+    height: 100%;
+}
+#menue{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+@keyframes ani{
+    0%{top:40%;}
+    50%{top: 35%;}
+    100%{top: 40%;}
+}
+#player1>img{
+    width: 80%;
+    position: relative;
+    top: 45%;
+    left: 10%;
+}
+#lockInButton{
+    height: 5%;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 80%;
+    position: relative;
+    top: 48%;
+    left: 7.5%;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 1%;
+}
+
+#player2>img{
+    width: 100%;
+    position: relative;
+    top: 50%;
+    left: 10%;
+    animation: ani 5s infinite;
+    
+}
+#player1>h1{
+    text-align: center;
+    position: relative;
+    top: 1%;
+}
+#player2>h1{
+    text-align: center;
+    position: relative;
+    top: 1%;
+}
+#menue>img{
+    border: 1px solid black;
+    margin: 0.5%;
+    width: 20%;
+    filter: grayscale(100%);
+}
+#Bru{
+    filter: grayscale(100%);
+    transition: ease-in-out 1s;
+}
+#Bru:hover{
+ filter: none;
+}
+#Eli{
+    filter: grayscale(100%);
+    transition: ease-in-out 1s;
+}
+#Eli:hover{
+ filter: none;
+}
+#Ton{
+    filter: grayscale(100%);
+    transition: ease-in-out 1s;
+}
+#Ton:hover{
+ filter: none;
+}
+#Hen{
+    filter: grayscale(100%);
+    transition: ease-in-out 1s;
+}
+#Hen:hover{
+ filter: none;
+}
+#Mau{
+    filter: grayscale(100%);
+    transition: ease-in-out 1s;
+}
+#Mau:hover{
+ filter: none;
+}
+#Pau{
+    filter: grayscale(100%);
+    transition: ease-in-out 1s;
+}
+#Pau:hover{
+ filter: none;
+}
+#stats{
+    display: flex;
+    width: 100%;
+    height: 40%;
+}
+
+#p2{
+    width: 50%;
+    height: 100%;
+}
+#description{
+    position: relative;
+    top: 40%;
+    left: 5%;
+    font-style: oblique;
+}
+#healthTag{
+    position: relative;
+    top: 35%;
+    left: 5%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#damageTag{
+    position: relative;
+    top: 35%;
+    left: 5%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#characterName{
+    position: relative;
+    top: 32%;
+    left: 5%;
+    font-family: crazy;
+}
+#outerdamagebar{
+    display: flex;
+    width: 80%;
+    background-color: white;
+    height: 10%;
+    border: 0.5px solid black;
+    border-radius: 5px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    position: relative;
+    top: 35%;
+    left: 5%;
+}
+#outerhealthbar{
+    display: flex;
+    width: 80%;
+    background-color: white;
+    height: 10%;
+    border: 0.5px solid black;
+    border-radius: 5px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    position: relative;
+    position: relative;
+    top: 35%;
+    left: 5%;
+    
+}
+#p1{
+    width: 50%;
+    height: 100%;
+}
+/*Henry*/
+
+
+.healthIndex0{
+    background-color: darkred;
+    border-left: none;
+    height: 75%;
+    position: relative;
+    width: 80%;
+    top: 7.5%;
+    left: 2.5%;
+    
+}
+
+.damageIndex0{
+    background-color: orange;
+    border-left: none;
+    height: 80%;
+    position: relative;
+    width: 20%;
+    top: 10%;
+    left: 2.5%;
+}
+/*Elice*/
+.healthIndex1{
+    background-color: darkred;
+    border-left: none;
+    height: 80%;
+    position: relative;
+    width: 95%;
+    top: 7.5%;
+    left: 2.5%;
+    
+}
+
+.damageIndex1{
+    background-color: orange;
+    border-left: none;
+    height: 70%;
+    position: relative;
+    width: 20%;
+    top: 10%;
+    left: 2.5%;
+}
+/*Tony*/
+.healthIndex2{
+    background-color: darkred;
+    border-left: none;
+    height: 80%;
+    position: relative;
+    width: 60%;
+    top: 7.5%;
+    left: 2.5%;
+    
+}
+
+.damageIndex2{
+    background-color: orange;
+    border-left: none;
+    height: 70%;
+    position: relative;
+    width: 30%;
+    top: 10%;
+    left: 2.5%;
+}
+/*Maurice*/
+.healthIndex3{
+    background-color: darkred;
+    border-left: none;
+    height: 80%;
+    position: relative;
+    width: 50%;
+    top: 7.5%;
+    left: 2.5%;
+    
+}
+
+.damageIndex3{
+    background-color: orange;
+    border-left: none;
+    height: 70%;
+    position: relative;
+    width: 10%;
+    top: 10%;
+    left: 2.5%;
+}
+/*Paul*/
+.healthIndex4{
+    background-color: darkred;
+    border-left: none;
+    height: 80%;
+    position: relative;
+    width: 95%;
+    top: 7.5%;
+    left: 2.5%;
+    
+}
+
+.damageIndex4{
+    background-color: orange;
+    border-left: none;
+    height: 70%;
+    position: relative;
+    width: 20%;
+    top: 10%;
+    left: 2.5%;
+}
+
+
+
+
+@font-face {
+    font-family: pixel;
+    src: url(../fonts/slkscr.ttf);
+}
+#cC{
+    top: 20%;
+    position: relative;
+    left: -55%;
+    animation: cho 5s infinite;
+    font-family: pixel;
+    transform: rotateZ('angle');
+}
+@keyframes cho{
+    0%{top: 22%;}
+    50%{top: 20%;}
+    100%{top: 22%;}
+}
+/*Game Itself*/
+#p1side{
+    height: 100%;
+    width: 35%;
+}
+#dicecenter{
+    height: 100%;
+    width: 30%;
+}
+#p2side{
+    height: 100%;
+    width: 35%;
+    }
+#characterAndFlexWrapper{
+    width: 90%;
+    clip-path: polygon(25% 0%, 80% 0, 53% 100%, 0% 100%);
+    background-color: white;
+    display: flex;
+    height: 90%;
+    position: relative;
+    left: 40%;
+    z-index: 0;
+    background: rgb(255,255,255);
+    background: linear-gradient(220deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 30%, rgba(31,81,157,1) 30%, rgba(31,81,157,1) 100%); 
+    display: block;
+    box-sizing: border-box;
+    }
+#pr{
+    position: relative;
+    height: 50%;
+    z-index: -2;
+    width: 100%;
+}
+#pr>img{
+    position: relative;
+    top: 45%;
+}
+#te{
+    background: rgb(255,255,255);
+    background: linear-gradient(220deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 26%, rgba(255,255,255,0) 50%, rgba(212,220,233,1) 50%, rgba(212,220,233,1) 100%); 
+    height: 50%;
+    width: 100%;
+}
+#cardP{
+    height: 20%;
+    width: 20%;
+    background-color: antiquewhite;
+    border-radius: 15px;
+    display: block;
+    color: black;
+    font-size: 8em;
+    text-align: center;
+    position: relative;
+    top: 78%;
+    left: -3%;
+}
+
+#HealthBox{
+    width: 50%;
+    height: 10%;
+    background-color: black;
+    position: relative;
+    top: 75%;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+    left: 1%;
+}
+#te>h3{
+   position: relative;
+   color: black;
+   text-align: center;
+   top: 75%;
+left: -33%;
+font-family: crazy;
+}
+#healthp{
+    top: 10%;
+    position: relative;
+    height: 80%;
+    background-color: darkred;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+/*---------------------------------------------------------------------------------------*/
+#healthb{
+    top: 10%;
+    position: relative;
+    height: 80%;
+    background-color: darkred;
+    left: 1%;
+
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+#cardB{
+    height: 20%;
+    width: 20%;
+    background-color: antiquewhite;
+    border-radius: 15px;
+    display: block;
+    color: black;
+    font-size: 8em;
+    text-align: center;
+    position: relative;
+    left: 63%;
+    top: 58%;
+}
+#BotAndFlexwrapper{
+    position: relative;
+    right: 50%;
+    clip-path: polygon(25% 0%, 80% 0, 100% 100%, 47% 100%);
+    background: rgb(157,31,31);
+    background: linear-gradient(322.5deg, rgba(157,31,31,1) 0%, rgba(157,31,31,1) 70%, rgba(255,255,255,0) 70%, rgba(255,255,255,0) 100%); 
+    width: 90%;
+    height: 90%;
+}
+#bpr{  position: relative;
+    height: 50%;
+    z-index: -2;
+    width: 100%;
+    left: 25%;
+  
+}
+#bpr>img{
+        position: relative;
+        left: 5%;
+        top: 45%;
+        transform: rotateY(180deg);
+}
+#bte{
+    background: rgb(212,220,233);
+background: linear-gradient(320deg, rgba(212,220,233,1) 0%, rgba(212,220,233,1) 60%, rgba(255,255,255,0) 60%, rgba(255,255,255,0) 100%); 
+    height: 50%;
+    width: 100%;  
+    position: relative;  
+    left: 20%;
+}
+#HealthBoxBot{
+       width: 50%;
+    height: 10%;
+    background-color: black;
+    position: relative;
+    top: 75%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    left: 31% 
+}
+#bte>h3{
+    position: relative;
+    color: black;
+    text-align: center;
+    top: 75%;
+    left: 14%;
+    font-family: crazy;
+ }
+/*VS*/
+@font-face {
+    font-family: vs;
+    src: url(../fonts/SpeedRunDemoRegular.ttf);
+}
+#vs{
+    font-family: vs;
+    position: absolute;
+    font-size: 5em;
+    top: 50%;
+    left: 45%;
+    animation: glitch 1s infinite;
+}
+@keyframes glitch {
+    0% {
+        transform: translate(0);
+    }
+    25% {
+        transform: translate(2px, -2px);
+    }
+    50% {
+        transform: translate(-2px, 2px);
+    }
+    75% {
+        transform: translate(2px, -2px);
+    }
+    100% {
+        transform: translate(-2px, 2px);
+    }
+}
+#winnerscreen{
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0.8083566190147934) 30%, rgba(0,0,0,1) 100%), url(../images/j8IEfV4.gif);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: bottom;
+}
+#winner{
+    height: 50%;
+    width: 40%;
+}
+#shadow{
+    clip-path: ellipse(32% 5% at 50% 50%);
+    background-color: rgba(105, 101, 101, 0.489);
+    height: 20%;
+    width: 30%;
+    position: absolute;
+    top: 75%;
+    left: 4%;
+}
+#winnerscreen>img{
+    position: relative;
+    top: 52%;
+    left: 10%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+#winnerscreen>h1{
+    position: absolute;
+    left: 10%;
+    font-family: pixel;
+    top: 90%;
+}
+#playAgain{
+    height: 8%;
+    font-size: 2em;
+    border: 1px solid white;
+    width: 20%;
+    text-align: center;
+    position: relative;
+    left: 40%;
+    top: 18%;
+}
+#playAgain>p{
+    margin-top: 2%;
+}
+
+#home{
+    height: 8%;
+    font-size: 2em;
+    border: 1px solid white;
+    width: 20%;
+    text-align: center;
+    position: relative;
+    left: 40%;
+    top: 22%;
+    ransition: transform 0.2s, box-shadow 0.2s;
+}
+#home>p{
+    margin-top: 2%;
+}
+#home:hover,#playAgain:hover {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+}   
+

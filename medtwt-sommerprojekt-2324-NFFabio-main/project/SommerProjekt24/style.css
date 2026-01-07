@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+#nav{
+    width: 40%;
+    height: 5%;
+    position: absolute;
+    top: 40%;
+    left: -15%;
+    display: flex;
+    flex-direction: row;
+    transform: rotate(-90deg);
+    justify-content: space-evenly;
+    z-index: 3;
+    color: black;
+}
+.element{
+    text-decoration: none;
+    color: white;
+    height: 100%;
+    width: 20%;
+    position: relative;
+    top: 20%;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.element:nth-child(1){
+    text-align: center;
+    width: 30%;
+}
+#headline{
+    position: absolute;
+    left: 20%;
+    top: 10%;
+    font-family: "inter-variable", sans-serif;
+    font-variation-settings: "slnt" 0, "wght" 600;
+    color: white;
+    z-index: 3;
+}
+#horizontal{
+    position: absolute;
+    width: 15%;
+    left: 42.5%;
+    top: 12%;
+    height: 5px;
+    background-color: white;
+    border: none;
+    z-index: 3;
+
+}
+#renderCanvas{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: 1;
+}

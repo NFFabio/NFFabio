@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title >Progress</title>
+    <link rel="shortcut icon" href="../assets/fav.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://use.typekit.net/efn8xil.css">
+    <link rel="stylesheet" href="./style/progress.css">
+    <link rel="stylesheet" href="https://use.typekit.net/efn8xil.css">
+    <script src="https://unpkg.com/lenis@1.0.44/dist/lenis.min.js"></script> 
+    <script src="./js/Progress.js" type="module" defer></script>
+    <script src="https://unpkg.com/split-type"></script>
+</head>
+<body>
+
+    
+
+    <div id="sideNav">
+        <div class="circle" id="fc"></div>
+        <div class="circle" id="sc"></div>
+        <div class="circle" id="tc"></div>
+    </div>
+
+
+    <svg viewBox="0 0 300 475" fill="none" id="drawLine">
+        <path d="M0 1H299V475" stroke="black"/>
+        </svg>
+        
+        
+        
+    <section id="Overlay">
+        <img id="firstSectorImage" width="55%" src="./assets/dark.png">
+        <h1 id="firstSectorHeadline" >マイルストン</h1> 
+            <svg width="100%" height="100%"> 
+                <filter id="effekt"> 
+                    <feTurbulence type="turbulence" baseFrequency="0.05" numOctaves="2" result="turbulence" />
+                    <feDisplacementMap in2="turbulence" in="SourceGraphic" 
+                    scale="50" 
+                    xChannelSelector="R" 
+                    yChannelSelector="G" />
+                </filter>
+            <mask id="mask">
+                <circle id="circle" r="65" fill="rgba(255,255,255)" filter="url(#effect)" style="filter:url(#effekt)"/>
+            </mask>
+        </svg>    
+    </section>
+    <section id="interface">
+        <img id="titleImage" width="55%" src="./assets/pexels-pixabay-301614.jpg">
+        <img id="highlight" width="55%" src="./assets/greyHighlight.png" >
+        
+        <h1 id="headline">Milestones</h1> 
+            <div id="sector2">
+                <div id="mileStone1"></div>
+                <div id="mileStone1Shadow"></div>
+                <h1 id="mileStone1VerticalText" data-value="ロレム・イプサ">ロレム・イプサ</h1>
+                <div id="milestone1TextBox">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo placeat officia alias, hic eius, nesciunt cupiditate distinctio vero odit quibusdam minus sapiente rem eligendi, at repudiandae! Corporis non libero similique quam incidunt laboriosam repudiandae, reiciendis porro nulla voluptatum? Nihil tenetur accusantium ad alias beatae praesentium dignissimos sint labore eaque eveniet atque, quas impedit vero doloremque, consectetur ipsa temporibus ipsum adipisci assumenda blanditiis quidem. Corporis optio aliquid quasi cupiditate, provident debitis ab laboriosam obcaecati ut enim molestiae ea eum similique in officia magni ipsum. Amet, eveniet. Molestias et accusamus hic, reiciendis aliquid debitis ipsa dignissimos voluptatibus exercitationem, doloribus facere sunt id ducimus placeat similique non obcaecati minima eveniet fuga itaque ratione. Similique amet nesciunt, enim asperiores cumque, numquam nihil sequi eveniet nobis, voluptas quas soluta est! Pariatur voluptates vero illo sit fugit esse accusamus labore ullam eaque ipsum ex, maiores at dolor quae, tenetur natus facilis eligendi sint. Saepe doloremque rem qui perspiciatis velit quos? Officiis nesciunt corporis consectetur illo obcaecati quisquam. Eligendi repellendus excepturi, quos, sequi accusamus incidunt sunt officiis, maiores delectus inventore voluptate iste similique necessitatibus minima. Ipsum optio saepe at tempore dolorum iusto expedita, ipsa odio consectetur ducimus reprehenderit omnis voluptatibus, soluta beatae est nihil eligendi eius qui.</div>
+            </div>
+
+            <div id="sector3">
+                <h1 id="s3hT">モックアップ</h1>
+                <h1 class="s3tT">The Mockup</h1>
+                <div id="s3mB"></div>
+                <div id="s3HL"></div>
+            </div>
+            
+            <div id="sector4">
+                <h1 id="s4hL">More Progress</h1>
+                <div id="s4hlT">さらなる進歩</div>
+                <div id="s4-one" class="more" data-tilt></div>
+                <div id="s4-two" class="more" data-tilt></div>
+                <div id="s4-thr" class="more" data-tilt></div>
+                <div id="s4-fou" class="more" data-tilt></div>
+                <div id="s4-fiv" class="more" data-tilt></div>
+                <div id="s4-six" class="more" data-tilt></div>
+            </div>
+
+            
+    </section>
+    
+    </section>
+
+    
+
+</body>
+</html>
