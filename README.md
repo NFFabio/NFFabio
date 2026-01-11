@@ -5,6 +5,9 @@ schön das du da bist 🤗
 Momentan besuche ich die 4. Klasse in der **HTL Leonding** im Bereich **IT & Medienttechnik**. Meine Intressen liegen vorallem im Frontend Design und das Lernen neuer Frameworks. Ich arbeite viel mit Figma um Oberflächen zu gestalten, kenne mich aber auch mit den Grundlagen wie html, css, javascript, php, typescript und java aus.
 
 Im Repo "NFFabio" werde ich einige Projekte, sowohl  aus meiner Schullaufbahn, als auch Private hochladen um meinen aktuellen Leistungsstand zu demonstrieren. 
+
+Aktuell arbeite ich auch gerne an ein paar kleinen leetcode Rätseln :D 
+https://leetcode.com/u/nffabio/
 <!-- 🎓 HTL Schüler>
 
 <!--
