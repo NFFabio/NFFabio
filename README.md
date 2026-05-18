@@ -1,13 +1,26 @@
-## Hallo, ich bin Fabio 👋
+# Hey, I'm Fabio 👋
 
-schön das du da bist 🤗
+I'm a 4th-year student at **HTL Leonding**, specializing in **IT & Media Engineering**.
 
-Momentan besuche ich die 4. Klasse in der **HTL Leonding** im Bereich **IT & Medienttechnik**. Meine Intressen liegen vorallem im Frontend Design und das Lernen neuer Frameworks. Ich arbeite viel mit Figma um Oberflächen zu gestalten, kenne mich aber auch mit den Grundlagen wie html, css, javascript, php, typescript und java aus.
+My main focus is on **frontend development and UI/UX design** — I enjoy turning ideas into polished, user-friendly interfaces. I work extensively with **Figma** for prototyping and design, and I'm always exploring new frameworks to expand my toolkit.
 
-Im Repo "NFFabio" werde ich einige Projekte, sowohl  aus meiner Schullaufbahn, als auch Private hochladen um meinen aktuellen Leistungsstand zu demonstrieren. 
+## Tech Stack
 
-Aktuell arbeite ich auch gerne an ein paar kleinen leetcode Rätseln :D 
-https://leetcode.com/u/nffabio/
+**Languages:** HTML · CSS · JavaScript · TypeScript · PHP · Java ·
+**Design:** Figma
+
+## About This Profile
+
+This repository showcases a collection of projects from both my academic curriculum and personal development. It reflects my current skill level and growth as a developer.
+
+## Beyond Code
+
+I like to sharpen my problem-solving skills with LeetCode challenges — feel free to check out my profile:  
+[leetcode.com/u/nffabio](https://leetcode.com/u/nffabio)
+
+---
+
+*Always learning, always building.*
 <!-- 🎓 HTL Schüler>
 
 <!--
